@@ -12,7 +12,8 @@ About Algorithms and Iterators
 Algorithms: Algorithms in C++ are reusable functions used to perform specific tasks on collections of elements. They are provided by the STL 
 and operate on data structures such as vectors, lists, etc.
 
-## **Iterators:** Iterators are objects used to traverse and manipulate elements within a container. They act as pointers pointing to elements in a
+## **Iterators:** 
+Iterators are objects used to traverse and manipulate elements within a container. They act as pointers pointing to elements in a
 sequence and provide a way to access elements in a container.
 
 ## **Usage and Characteristics**
