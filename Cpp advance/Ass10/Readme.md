@@ -1,9 +1,9 @@
-**Assignment 10: Sequential Containers Part Two**
+#**Assignment 10: Sequential Containers Part Two**
 **Description**
 This assignment focuses on understanding and implementing the concept of nested sequential containers in C++. 
 It involves storing objects of container types within other container objects.
 
-**Contents**
+##**Contents**
 Nested Containers
 Usage
 Example
@@ -11,7 +11,7 @@ How to Run the Example
 Nested Containers
 In C++, nested containers refer to the practice of storing container objects inside other container objects. This can involve using sequential containers like vectors, lists, or deques, and storing them within another sequential container.
 
-**Usage**
+##**Usage**
 Nested containers enable the creation of complex data structures where a container holds elements, and those elements are themselves containers.
 They allow for flexible storage and organization of data by providing multiple levels of nesting.
 Common operations include adding, accessing, and manipulating elements in the nested containers.
