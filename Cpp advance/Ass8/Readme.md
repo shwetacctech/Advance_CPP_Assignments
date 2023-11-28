@@ -26,3 +26,8 @@ for (auto p : m)
     {
         std::cout <<"("<< p.x()<< "," << p.y()<<","<< p.z()<<")"<<std::endl;  
     }
+for (auto p : m)
+    {
+        Point3D pl(p.x(),p.y(),p.z());
+        listpoints.push_back(pl);
+    }
