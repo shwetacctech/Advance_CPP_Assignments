@@ -1,4 +1,4 @@
-#**Assignment 10: Sequential Containers Part Two**
+#Assignment 10: Sequential Containers Part Two
 **Description**
 This assignment focuses on understanding and implementing the concept of nested sequential containers in C++. 
 It involves storing objects of container types within other container objects.
