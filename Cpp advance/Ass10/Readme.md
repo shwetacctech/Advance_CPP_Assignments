@@ -14,7 +14,7 @@ In C++, nested containers refer to the practice of storing container objects ins
 ## **Usage**
 Nested containers enable the creation of complex data structures where a container holds elements, and those elements are themselves containers.
 They allow for flexible storage and organization of data by providing multiple levels of nesting.
-Common operations include adding, accessing, and manipulating elements in the nested containers.
+/nCommon operations include adding, accessing, and manipulating elements in the nested containers.
 std::list<Point3D> Point_Normals::addListNormal(){
     std::list<Point3D> listpoints;
     PointList m = mTriangulation.normals();
