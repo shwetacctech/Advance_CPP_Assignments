@@ -16,3 +16,8 @@ In C++14 and later, lambda captures can perform generalized captures with initia
 and initialize variables.<br>
 The init-capture allows initialization and capture of variables outside the lambda scope.<br>
 Initialization in captures supports both copy-initialization (=) and direct-initialization ({}).<br>
+##
+ auto printNormals_lam = [msg="All normals have been printed using Generalized capture"]() mutable
+{
+        std::cout<<msg<<std::endl;
+    };
