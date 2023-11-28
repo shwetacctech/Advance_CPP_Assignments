@@ -17,12 +17,13 @@ Iterators are objects used to traverse and manipulate elements within a containe
 sequence and provide a way to access elements in a container.
 
 ## **Usage and Characteristics**
-Algorithms:
-STL provides a rich set of algorithms like sort, find, transform, etc.
-They perform operations on elements within containers and can take iterators as arguments.
-Iterators:
-Different types of iterators (e.g., begin, end, const_iterator) allow various operations on containers.
-They support movement through containers and provide access to elements.
+**Algorithms:**<br>
+STL provides a rich set of algorithms like sort, find, transform, etc.<br>
+They perform operations on elements within containers and can take iterators as arguments.<br>
+**Iterators:**<br>
+Different types of iterators (e.g., begin, end, const_iterator) allow various operations on containers.<br>
+They support movement through containers and provide access to elements.<br>
+##
 for (auto p : m)<br>
     {
         std::cout <<"("<< p.x()<< "," << p.y()<<","<< p.z()<<")"<<std::endl;<br>  
