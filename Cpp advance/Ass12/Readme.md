@@ -3,9 +3,9 @@
 This assignment focuses on understanding and implementing virtual functions in C++. Virtual functions enable runtime polymorphism by allowing the selection of appropriate functions to be executed based on the object's runtime type.
 
 ## **Contents******
-What are Virtual Functions?
-Usage
-Example
+What are Virtual Functions?<br>
+Usage<br>
+Example<br>
 ## **What are Virtual Functions?**
 In C++, a virtual function is a member function in a base class that is redefined in a derived class. These functions are declared with the virtual keyword in the base class. They enable dynamic binding, allowing the selection of the appropriate function to be executed based on the object's actual type at runtime.
 
