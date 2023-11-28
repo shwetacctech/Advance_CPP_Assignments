@@ -17,6 +17,9 @@ Virtual functions allow polymorphism, enabling the derived class to provide its 
 **Example**
 virtual void printClass();
 void printClass() override;
+void print_class(Point3D pobj) {
+    pobj.printClass();
+}
  Point3D p(1.0,2.0,3.0);
  p.printClass();
  VectorClass v(p.x(),p.y(),p.z(),1.3,1.5,1.4);
